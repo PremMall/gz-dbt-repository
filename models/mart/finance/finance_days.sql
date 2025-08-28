@@ -1,4 +1,5 @@
- WITH orders_per_day AS (
+
+WITH orders_per_day AS (
    SELECT
      date_date
      ,COUNT(DISTINCT orders_id) AS nb_transactions
